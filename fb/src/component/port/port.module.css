@@ -1,0 +1,10 @@
+.port{
+    flex-basis: 20%;
+    border: 1px solid black;
+    height:80vh;
+}
+@media screen and (max-width:40em){
+    .port{
+        display: none;
+    }
+}

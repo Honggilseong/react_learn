@@ -1,0 +1,16 @@
+.message {
+  padding: 1em;
+  margin: 0.5em;
+  width: fit-content;
+}
+.message.messageCurrentUser {
+  margin-left: auto;
+  color: #000;
+  text-align: left !important;
+}
+.currentUser {
+  background-color: #0078ff !important;
+}
+.otherUser {
+  background-color: #ececf0 !important;
+}

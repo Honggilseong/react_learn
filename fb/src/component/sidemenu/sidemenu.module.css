@@ -1,0 +1,21 @@
+.sidemenu{
+    display: flex;
+    flex-direction: column;
+    padding:1em;
+}
+.profile{
+    width:3em;
+    border-radius: 50%;
+    margin-right:.5em;
+}
+
+.side{
+    display: flex;
+    align-items: center;
+    padding:.5em;
+    cursor: pointer;
+}
+.side:hover{
+    border-radius: 20px;
+    background-color:#DADDE1;
+}

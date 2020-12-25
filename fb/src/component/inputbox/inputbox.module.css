@@ -1,0 +1,83 @@
+.inputbox {
+  padding: 1em;
+  width: 100%;
+  max-width: 50em;
+  margin-top: 3em;
+  background-color: #fff;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+.profileimg {
+  width: 3em;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+.inputwrap {
+  width: 100%;
+  background-color: #f0f2f5;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+.inputtext {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #f0f2f5;
+  cursor: pointer;
+}
+.addbtn {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 50%;
+}
+.btnstyle {
+  width: 100%;
+  display: flex;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  justify-content: center;
+  background-color: #fff;
+  margin-top: 1em;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #f0f2f5;
+}
+.file {
+  display: none;
+}
+.loadingbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 1em;
+  background-color: #f0f2f5;
+}
+.loading {
+  border: 3px solid white;
+  border-top: 3px solid black;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  animation: loadingspin 2s infinite linear;
+}
+@keyframes loadingspin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

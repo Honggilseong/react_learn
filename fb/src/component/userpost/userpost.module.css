@@ -1,0 +1,15 @@
+.userpost {
+  flex-basis: 50%;
+  overflow-y: scroll;
+  height: 100vh;
+  min-width: 30em;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.inputfix {
+  display: flex;
+  justify-content: center;
+}
